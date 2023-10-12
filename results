@@ -1,0 +1,25 @@
+#program to generate students results
+
+s_no=int(input("Enter student num"))
+s_name=input("Enter student name")
+group=input("Enter student group")
+
+sub1=int(input("Enter c marks:"))
+sub2=int(input("Enter ds marks:"))
+sub3=int(input("Enter  python marks:"))
+
+total=sub1+sub2+sub3
+avg=total//3
+
+if avg>=90:
+    print("O Grade")
+elif avg>=80:
+    print("A Grade")
+elif avg>=70:
+    print("B Grade")
+elif avg>=60:
+    print("C Grade")
+elif avg>=50:
+    print("D Grade")
+else:
+    print("Pass")
